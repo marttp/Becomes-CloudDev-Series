@@ -1,0 +1,16 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "The sample web service from express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Thanaphoom Babparn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  }
+}
