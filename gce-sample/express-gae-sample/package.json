@@ -1,0 +1,22 @@
+{
+  "name": "express-gae-sample",
+  "version": "1.0.0",
+  "description": "Sample web framework by express.js for Google App Engine tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit test/*.test.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Thanaphoom Babparn",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}
